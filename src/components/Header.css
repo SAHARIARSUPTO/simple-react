@@ -1,0 +1,44 @@
+.header{
+    height: 80px;
+    background-color: #1C2B35;
+    color: black;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.header nav a{
+    text-decoration: none;
+    color: black;
+    gap: 10px;
+    margin: 30px;
+    text-align: center;
+    align-items: center;
+    font-size: larger;
+}
+.button{
+    background-color: yellow;
+    border-radius: 5px;
+    border-width: 0px;
+    padding: 10px;
+    gap: 10px;
+    margin: 5px;
+
+}
+.button:hover{
+    background-color: #00D84A;
+}
+@media only screen and (max-width: 600px) {
+    .header{
+        height: fit-content;
+        gap: 50px;
+    }
+    .header nav a{
+        grid-template-columns: repeat(1,0);
+        justify-content: center;
+    }
+    
+}
