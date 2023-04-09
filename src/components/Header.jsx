@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div className='header'>
             <div>
-            <img src={logo} alt="" srcset="" /></div>
+            <img src={logo} alt=""/></div>
             <nav>
             <button className='button'><a href='facebook.com'>Order</a></button>
             <button className='button'><a href=''>Order Review</a></button>

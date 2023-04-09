@@ -1,0 +1,37 @@
+.product img{
+    height: 286px;
+    width: 286px;
+    border-radius: 5px;
+}
+.product{
+    width: 300px;
+    height: 508px;
+    border: 3px solid yellow;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 10px;
+    box-shadow: brown;
+
+}
+.product:hover{
+    background-color: rgb(195, 181, 248);
+    box-shadow: cornflowerblue;
+    
+}
+.button{
+    background-color: yellow;
+    border-radius: 5px;
+    border-width: 0px;
+    padding: 10px;
+    gap: 10px;
+    margin: 5px;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+
+}
+.cart-text{
+    font: bold;
+    font-size: larger;
+}
