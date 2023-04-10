@@ -1,6 +1,8 @@
 .shop-container{
     display: grid;
     grid-template-columns: 4fr 1fr;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
 }
 .products-container{
     margin: 50px;
