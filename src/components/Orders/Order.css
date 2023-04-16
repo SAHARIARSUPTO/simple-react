@@ -1,0 +1,23 @@
+.Order-Container{
+
+    text-align: center;
+    
+}
+
+.product-cart{
+    text-align: center;
+    display: block;
+    font: bolder;
+    font-size: 50px;
+}
+.color-changing-text {
+    text-align: center;
+    animation: color-change 3s infinite;
+  }
+  
+  @keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    75% { color: rgb(6, 241, 92); }
+    100% { color: green; }
+  }
