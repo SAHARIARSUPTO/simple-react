@@ -1,0 +1,13 @@
+.check-text{
+    text-align: center;
+    font-size: 100px;
+    font:bolder
+}
+.checkout-parent{
+    text-align: center;
+    background-color: rgb(189, 244, 244);
+    margin: 0px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}

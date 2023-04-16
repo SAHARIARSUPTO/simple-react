@@ -10,3 +10,11 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
+.decor{
+    text-decoration: none;
+    color: black;
+
+}
+.decor:hover{
+    color: white;
+}

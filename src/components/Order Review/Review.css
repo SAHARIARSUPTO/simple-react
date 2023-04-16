@@ -1,0 +1,44 @@
+.review-parent{
+    font-weight: 400;
+    font-size: 18px;
+    width: 571px;
+    border: 2px solid rgb(6, 241, 92);
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.review-parent img{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+.review-parent:hover{
+    background-color: rgba(232, 249, 237, 0.623);
+}
+.icon{
+color: rgb(6, 241, 92);
+height: 30px;
+width: 30px;
+}
+.icon:hover{
+    color:black;
+}
+.orange-text{
+    color: orangered;
+}
+.icon-bg{
+    height: 55px;
+    width: 55px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

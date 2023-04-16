@@ -10,7 +10,6 @@ const Header = () => {
             <nav>
             <button className='button'><a href='/Home'>Home</a></button>
             <button className='button'><a href='/Order'>Order</a></button>
-            <button className='button'><a href='/Review'>Order Review</a></button>
             <button className='button'><a href='/Inventory'>Manage Inventory</a></button>
             <button className='button'><a href='/Login'>Log In</a></button>
         

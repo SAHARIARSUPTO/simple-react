@@ -12,6 +12,7 @@ import Review from './components/Order Review/Review';
 import Inventory from './components/Manage Inventory/Inventory';
 import Login from './components/Login/Login';
 import cartProductsLoader from './Loaders/Cartproductsloader';
+import Checkout from './components/Checkout';
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: 'Review',
         element: <Review></Review>,
+      },
+      {
+        path:'Checkout',
+        element: <Checkout></Checkout>,
       },
       {
         path:'Inventory',
