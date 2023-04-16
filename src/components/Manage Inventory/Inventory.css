@@ -1,7 +1,7 @@
 .check-text{
     text-align: center;
-    font-size: 100px;
-    font:bolder
+    font-size: medium;
+    font: bolder;
 }
 .checkout-parent{
     text-align: center;
@@ -10,4 +10,16 @@
     padding: 10px;
     justify-content: center;
     align-items: center;
+}
+@media only screen and (max-width: 600px) {
+    .checkout-parent{
+        
+        font-size: x-small;
+    }
+    .checkout-parent img{
+        
+        height: 200px;
+        width: 400px;
+    }
+
 }

@@ -23,3 +23,20 @@
     background-color: black;
     color: white;
 }
+@media only screen and (max-width: 600px) {
+    .cart{
+        position: absolute;
+        bottom: 0px;
+        font-size: 5px;
+        margin-top: 170px;
+        width: 60px;
+        position: sticky;
+        top: 270px;
+        margin: 0px;
+    }
+    .button-pri{
+        font-size: 5px;
+        padding: 5px;
+
+    }
+}

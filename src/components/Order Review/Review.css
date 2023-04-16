@@ -29,6 +29,7 @@ width: 30px;
 }
 .icon:hover{
     color:black;
+    color: white;
 }
 .orange-text{
     color: orangered;
@@ -42,3 +43,22 @@ width: 30px;
     justify-content: center;
     align-items: center;
 }
+@media only screen and (max-width: 600px) {
+    .review-parent{
+        margin: 0px;
+        padding: 5px;
+        font-size: smaller;
+        width: 250px;
+
+    }
+    .parent{
+        margin-top: 10px;
+
+    }
+    .parent img{
+        height: 100px;
+        width: 100px;
+
+    }
+    
+  }

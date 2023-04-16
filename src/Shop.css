@@ -18,3 +18,23 @@
 .decor:hover{
     color: white;
 }
+
+@media only screen and (max-width: 600px) {
+    .products-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: none;
+        font-size: 7px;
+        padding: 2px;
+        margin: 0px;
+        gap: 2px;
+    }
+    .products-container img{
+        height: 100px;
+        width:  100px;
+
+    }
+    
+}
+
+

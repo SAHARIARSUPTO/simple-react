@@ -9,14 +9,15 @@
     display: block;
     font-size: 10px;
 }
-.color-changing-text {
-    text-align: center;
-    animation: color-change 3s infinite;
+@media only screen and (max-width: 600px) {
+
+  .shop-container{
+    margin: 0px;
+    padding: 0px;
+  }
+  .product-cart{
+    margin: 0px;
+    padding: 0px;
   }
   
-  @keyframes color-change {
-    0% { color: red; }
-    50% { color: blue; }
-    75% { color: rgb(6, 241, 92); }
-    100% { color: green; }
-  }
+}

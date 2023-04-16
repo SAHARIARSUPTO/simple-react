@@ -35,3 +35,31 @@
     font: bold;
     font-size: larger;
 }
+@media only screen and (max-width: 600px) {
+
+    .product{
+        width: 150px;
+        height: 230px;
+        padding: 2px;
+        margin: 0px;
+        margin: 5x;
+    }
+    .button{
+        background-color: yellow;
+        border-radius: 5px;
+        border-width: 0px;
+        padding: 5px;
+        gap: 10px;
+        margin: 10px;
+        font-size: smaller;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+.button:hover{
+    background-color: rgb(6, 241, 92);
+    color: white;
+
+    
+}
+}
